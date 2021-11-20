@@ -1,0 +1,44 @@
+user@ubuntu:~/Desktop/mymat$ ./mymat
+
+Give me a command
+read_mat MAT_G, 5, 6, 7
+Undefined matrix name
+Give me a command
+read_mat MAT_A, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+read_mat MAT_A, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Give me a command
+mul_scalar MAT_A, 30, MAT_B       
+
+mul_scalar MAT_A, 30, MAT_B
+
+Give me a command
+print_mat MAT_B
+
+print_mat MAT_B
+
+  30.00	  60.00	  90.00	 120.00
+ 150.00	 180.00	 210.00	 240.00
+ 270.00	 300.00	   0.00	   0.00
+   0.00	   0.00	   0.00	   0.00
+Give me a command
+lalala MAT_A
+Undefined command name
+Give me a command
+mul_scalar MAT_A, MAT_B
+Missing Scalar
+Give me a command
+trans_mat MAT_B, MAT_C
+
+trans_mat MAT_B, MAT_C
+
+Give me a command
+print_mat MAT_C
+
+print_mat MAT_C
+
+  30.00	 150.00	 270.00	   0.00
+  60.00	 180.00	 300.00	   0.00
+  90.00	 210.00	   0.00	   0.00
+ 120.00	 240.00	   0.00	   0.00
+Give me a command
